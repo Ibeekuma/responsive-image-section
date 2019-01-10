@@ -23,27 +23,29 @@ body {
   margin: 0;
 }
 
-h1 {
+h1, p {
   margin: 0 0 1.3rem;
 }
 
 section {
   background-color: #e2e2e2;
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 .text {
-  padding: 0 1rem 1rem;
+  padding: 0 1rem;
 }
 
+/*
 p {
   margin: 0;
   text-align: left;
 }
-
+*/
+/*
 p:last-of-type {
   padding-bottom: 1rem;
-}
+} */
 
 a {
   text-decoration: none;
@@ -64,6 +66,10 @@ a:hover {
 .img-flex {
   width: 100%;
   display: block;
+}
+
+.img {
+  padding: 1.3rem 0 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -88,7 +94,7 @@ a:hover {
     max-width: 25em;
     width: 48%;
     vertical-align: middle;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .img-flex {
@@ -110,6 +116,15 @@ a:hover {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .text {
+    display: inline-block;
+    margin: 0;
+    max-width: 25em;
+    width: 48%;
+    vertical-align: middle;
+    margin-top: 2.5rem;
   }
 
 }
